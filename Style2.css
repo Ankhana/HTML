@@ -1,0 +1,139 @@
+@font-face{
+    font-family: 'hack';
+    src: url('Polices/SEGA.TTF');
+}
+
+@font-face{
+    font-family : 'simple';
+    src: url('Polices/Hack-Bold.ttf');
+}
+
+
+html
+{
+background-image: URL('Images/fond_code5.gif');
+}
+
+#entete{
+  background-color: black;
+  width: 1400px;
+  height: 250px;
+  margin: 50px;
+}
+
+#contenu{
+  font-family: simple;
+  float:left;
+  color: grey;
+  font-size : 130%; /* paragraphes de 150 % de la page */
+  text-align : center;
+  background-color: black;
+  border:1px solid white;
+  padding: 10px;
+  margin-left: 40px;
+  width: 1050px;
+}
+
+#contenu p a{
+  text-decoration: none;
+  color: red;
+}
+
+#contenu h1{
+  text-decoration: underline;
+}
+
+#contenu details{
+  padding-top: 180px;
+  padding-bottom: 260px;
+  margin-left:100px;
+  margin-right: 300px;
+
+}
+
+#image_accueil{
+color: black;
+}
+
+#image_perso{
+  color: black;
+  float: left;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+#menu {
+  float: left;
+   width: 350px;
+   margin-right: 20px;
+   padding-right: 10px;
+   background-color: black;
+   font-family: hack;
+   font-size: 240%;
+}
+
+#menu nav ul{
+  list-style-type: none;
+
+}
+
+#menu nav ul li a{
+ text-decoration: none;
+ color:  white;
+}
+
+#acceuil{
+  padding-bottom: 1800px;
+}
+
+#resume{
+padding-bottom: 280px;
+}
+
+#perso{
+  padding-bottom: 8070px;
+
+}
+
+#saison nav{
+  padding-bottom: 250px;
+}
+
+#saison details{
+  text-decoration: none;
+  list-style-type: none;
+  margin-bottom: 20px;
+  margin-left: 300px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: .5em .5em 0;
+}
+
+#saison details[open]{
+  margin-bottom: 20px;
+  margin-left: 300px;
+  padding: .5em;
+}
+
+#saison details summary{
+  font-weight: bold;
+  padding: .5em;
+}
+
+#saison details[open] summary{
+  border-bottom: 1px solid #aaa;
+  margin-bottom: .5em;
+}
+
+#pied{
+  float: left;
+  color: white;
+  background-color: black;
+  padding: 20px;
+  padding-left: 600px;
+  padding-right: 550px;
+  margin-top: 30px;
+  font-family: simple;
+
+}
